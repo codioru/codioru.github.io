@@ -12,19 +12,42 @@
                 <nav><ul>
                     <li><a href="/pages/about.html">about</a></li>
                     <li><a href="/pages/contakt.html">contakt</a></li>
-                    <li><a href="/category/books.html">books</a></li>
+                    <li><a href="/category/dev.html">Dev</a></li>
                     <li><a href="/category/jade.html">Jade</a></li>
                     <li><a href="/category/javascript.html">JavaScript</a></li>
                     <li><a href="/category/python.html">Python</a></li>
                     <li><a href="/category/sap.html">SAP</a></li>
-                    <li><a href="/category/test.html">test</a></li>
                     <li><a href="/category/web.html">web</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/Jade.html">Jade - движок шаблонов</a></h1>
+                    <h1 class="entry-title"><a href="/python3.html">Python3!</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2019-03-01T12:20:00+03:00">
+                Published: Пт 01 Март 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/pypy.html">pypy</a>
+        </address>
+<p>In <a href="/category/python.html">Python</a>.</p>
+<p>tags: <a href="/tag/dev.html">dev</a> <a href="/tag/py.html">py</a> </p>
+</footer><!-- /.post-info --><p>Содержание статьи будет здесь, все напишу о питоне</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/Jade.html" rel="bookmark"
+                           title="Permalink to Jade - движок шаблонов">Jade - движок шаблонов</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2019-02-27T23:20:00+03:00">
                 Published: Ср 27 Февраль 2019
@@ -40,828 +63,10 @@
         </address>
 <p>In <a href="/category/jade.html">Jade</a>.</p>
 <p>tags: <a href="/tag/dev.html">dev</a> <a href="/tag/js.html">js</a> <a href="/tag/jade.html">jade</a> </p>
-</footer><!-- /.post-info --><p>original_url: https://github.com/visionmedia/jade
-original_title: Jade template engine</p>
-<hr>
-<ul>
-<li toc>sdf</li>
-</ul>
-<h1>Jade - движок шаблонов</h1>
-<p>Jade - это высокопроизводительный шаблонизатор, источником вдохновенья для создания которого послужил <a href="http://haml-lang.com">Haml</a>.</p>
-<p>Jade реализован на JavaScript для <a href="http://nodejs.org">node</a>.</p>
-<h2>Возможности</h2>
-<ul>
-<li>работает на клиентской стороне</li>
-<li>отличная читабельность</li>
-<li>гибкая система отступов</li>
-<li>раскрытие блоков</li>
-<li>примеси</li>
-<li>статические инклюды</li>
-<li>интерполяция в аттрибутах</li>
-<li>из соображений безопасности по умолчанию все экранируется</li>
-<li>контекстные сообщения об ошибках как во время компиляции так и во время выполнения</li>
-<li>утилита для компиляции jade в html из командной строки</li>
-<li>режим HTML5 (используйте doctype <em>!!! 5</em>)</li>
-<li>кеширование в памяти (опционально)</li>
-<li>комбинирование динамических и статических CSS-классов</li>
-<li>манипуляции с деревом парсинга через <em>filters</em></li>
-<li>поддержка <a href="http://express-js.ru">Express JS</a> "из коробки"</li>
-<li>прозрачный механизм итерации по объектам, массивам, и даже неисчислимым типам через <code>each</code></li>
-<li>блочные комментарии</li>
-<li>фильтры AST</li>
-<li>фильтры<ul>
-<li>:sass - нужно установить <a href="http://github.com/visionmedia/sass.js">sass.js</a></li>
-<li>:less - нужно установить <a href="http://github.com/cloudhead/less.js">less.js</a></li>
-<li>:markdown - нужно установить <a href="http://github.com/evilstreak/markdown-js">markdown-js</a> или <a href="http://github.com/visionmedia/node-discount">node-discount</a></li>
-<li>:cdata</li>
-<li>:coffeescript - нужно установить <a href="http://jashkenas.github.com/coffee-script/">coffee-script</a></li>
-</ul>
-</li>
-<li><a href="https://github.com/digitaltoad/vim-jade">подсветка синтаксиса для Vim</a></li>
-<li><a href="http://github.com/miksago/jade-tmbundle">TextMate Bundle</a></li>
-<li><a href="http://tjholowaychuk.com/post/1004255394/jade-screencast-template-engine-for-nodejs">скринкасты</a></li>
-<li><a href="https://github.com/donpark/html2jade">html2jade конвертер</a></li>
-</ul>
-<h2>Реализации</h2>
-<ul>
-<li><a href="http://github.com/everzet/jade.php">php</a></li>
-<li><a href="http://scalate.fusesource.org/versions/snapshot/documentation/scaml-reference.html">scala</a></li>
-<li><a href="http://github.com/stonean/slim">ruby</a></li>
-</ul>
-<h2>Установка</h2>
-<p>Через npm:</p>
-<div class="highlight"><pre><span></span>npm install jade
-</pre></div>
-
-
-<h2>Поддержка браузерами</h2>
-<p>Чтобы скомпилировать jade в один файл для использования на стороне клиента, просто выполните:</p>
-<div class="highlight"><pre><span></span>$ make jade.js
-</pre></div>
-
-
-<p>Также, если uglifyjs установлен через npm (<code>npm install uglify-js</code>), можно выполнить следующее (что создаст оба файла). Однако в каждом релизе это уже сделано за вас.</p>
-<div class="highlight"><pre><span></span>$ make jade.min.js
-</pre></div>
-
-
-<p>По умолчанию Jade встраивает служебные функции - например, <code>escape()</code> или <code>attr()</code> - внутрь сгенерированных функций шаблона. Также Jade снабжает шаблоны отладочными метками типа <code>__.lineno = 3</code>. При работе в браузере полезно минимизировать этот каркас - для этого передайте опцию <code>{ compileDebug: false }</code>, and <code>{ inline: false }</code>. Следующий шаблон:</p>
-<div class="highlight"><pre><span></span>p Hello #{name}
-</pre></div>
-
-
-<p>Может принять вид вот такой маленькой функции:</p>
-<div class="highlight"><pre><span></span><span class="kd">function</span> <span class="nx">anonymous</span><span class="p">(</span><span class="nx">locals</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">attrs</span> <span class="o">=</span> <span class="nx">jade</span><span class="p">.</span><span class="nx">attrs</span><span class="p">,</span>
-        <span class="nx">escape</span> <span class="o">=</span> <span class="nx">jade</span><span class="p">.</span><span class="nx">escape</span><span class="p">;</span>
-    <span class="kd">var</span> <span class="nx">buf</span> <span class="o">=</span> <span class="p">[];</span>
-    <span class="kd">with</span><span class="p">(</span><span class="nx">locals</span> <span class="o">||</span> <span class="p">{})</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">interp</span><span class="p">;</span>
-        <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;lt;p&amp;gt;&#39;</span><span class="p">);</span>
-        <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">escape</span><span class="p">((</span><span class="nx">interp</span> <span class="o">=</span> <span class="nx">name</span><span class="p">)</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">?</span> <span class="s1">&#39;&#39;</span> <span class="o">:</span> <span class="nx">interp</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
-        <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;lt;/p&amp;gt;&#39;</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="k">return</span> <span class="nx">buf</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>С помощью Jade-овского <code>runtime.js</code> можно использовать заранее скомпилированные
-шаблоны на клиентской стороне вообще <em>без</em> Jade.
-Все, что нужно - это соответствующие служебные функции (в runtime.js),
-которые в таком случае доступны как <code>jade.attrs</code>, <code>jade.escape</code> итд.</p>
-<h3>Утилиты сборки, поддерживающие Jade</h3>
-<p><em>От переводчика - спустя год после публикации данного перевода:</em></p>
-<blockquote>
-<p>Это была теория, теперь немного практики. В своей <a href="/2012/08/24/browserify.html">статье об утилите сборки browserify</a>
-я привожу пример компиляции Jade-шаблонов как CommonJS-модулей, которые можно
-подключать через <code>require()</code>.
-Считаю такой способ предпочтительным,
-особенно в случае если browserify уже используется в вашем проекте
-и такой стиль программирования близок вам идеологически.</p>
-</blockquote>
-<h2>Публичный API</h2>
-<div class="highlight"><pre><span></span>var jade = require(&#39;jade&#39;);
-
-// Отрендерить строку
-jade.render(&#39;string of jade&#39;, {
-    options: &#39;here&#39;
-});
-
-// Отрендерить файл
-jade.renderFile(&#39;path/to/some.jade&#39;, {
-    options: &#39;here&#39;
-}, function (err, html) {
-    // опции опциональны,
-    // коллбеком может быть второй аргумент
-});
-
-//Компилировать функцию
-var fn = jade.compile(&#39;string of jade&#39;, options);
-fn.call(scope, locals);
-</pre></div>
-
-
-<h3>Опции</h3>
-<ul>
-<li><code>scope</code> Что считать за <code>this</code></li>
-<li><code>self</code> Использовать пространство имен <code>self</code> для локальных переменных . <em>по умолчанию false</em></li>
-<li><code>locals</code> Объект локальных переменных</li>
-<li><code>filename</code>  Используется для обработки исключений, а также для инклюдов</li>
-<li><code>debug</code> Выводит токены и тело сгенерированной функции</li>
-<li><code>compiler</code> Компилятор, который будет использоваться вместо Jade</li>
-<li><code>compileDebug</code>  Если <code>false</code>, компилировать без отладочной информации</li>
-<li><code>inline</code> Если <code>false</code>, то хелперы не вставляются inline (идеально последующего использования на стороне клиента)</li>
-</ul>
-<h2>Синтаксис</h2>
-<h3>Окончания строк</h3>
-<p><strong>CRLF</strong> и <strong>CR</strong> преобразуются в <strong>LF</strong> перед парсингом.</p>
-<h3>Теги</h3>
-<p>Тег обозначается просто начальным словом:</p>
-<div class="highlight"><pre><span></span>html
-</pre></div>
-
-
-<p>это, например, преобразуется в <code>&lt;html&gt;&lt;/html&gt;</code>.</p>
-<p>Теги могут иметь id-ы:</p>
-<div class="highlight"><pre><span></span>div#container
-</pre></div>
-
-
-<p>отрендерится в <code>&lt;div id="container"&gt;&lt;/div&gt;</code></p>
-<p>Классы:</p>
-<div class="highlight"><pre><span></span>div.user-details
-</pre></div>
-
-
-<p>рендерится в <code>&lt;div class="user-details"&gt;&lt;/div&gt;</code></p>
-<p>несколько класов? <em>а также</em> id? запросто:</p>
-<div class="highlight"><pre><span></span>div#foo.bar.baz
-</pre></div>
-
-
-<p>рендерится в <code>&lt;div id="foo" class="bar baz"&gt;&lt;/div&gt;</code></p>
-<p>Конечно <code>div div div</code> это фигня, поэтому можно просто написать так:</p>
-<div class="highlight"><pre><span></span>#foo
-.bar
-</pre></div>
-
-
-<p>Это "синтаксический сахар" для сокращенной записи тега div. На выходе имеем:</p>
-<div class="highlight"><pre><span></span>&amp;lt;div id=&quot;foo&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div class=&quot;bar&quot;&amp;gt;&amp;lt;/div&amp;gt;
-</pre></div>
-
-
-<h3>Текст тега</h3>
-<p>Просто поместите некоторый контент после тега:</p>
-<div class="highlight"><pre><span></span>p wahoo!
-</pre></div>
-
-
-<p>рендерится в <code>&lt;p&gt;wahoo!&lt;/p&gt;</code>.</p>
-<p>Большие куски текста записываются так:</p>
-<div class="highlight"><pre><span></span>p
-  | foo bar baz
-  | rawr rawr
-  | super cool
-  | go jade go
-</pre></div>
-
-
-<p>рендерится в <code>&lt;p&gt;foo bar baz rawr.....&lt;/p&gt;</code>.</p>
-<p>Интерполяция: любой тип текста имеет возможность интерполяции.</p>
-<p>Если передать <code>{ locals: { name: 'tj', email: 'tj@vision-media.ca' }}</code> в <code>render()</code></p>
-<p>можно сделать следующее:</p>
-<div class="highlight"><pre><span></span>#user #{name} &amp;amp;lt;#{email}&amp;amp;gt;
-</pre></div>
-
-
-<p>на выходе будет: <code>&lt;div id="user"&gt;tj &amp;lt;tj@vision-media.ca&amp;gt;&lt;/div&gt;</code></p>
-<p>Если надо отобразить именно последовательность символов <code>#{}</code>, то можно заэкранировать ее обратной косой чертой:</p>
-<div class="highlight"><pre><span></span>p \#{something}
-</pre></div>
-
-
-<p>превратится в: <code>&lt;p&gt;#{something}&lt;/p&gt;</code></p>
-<p>Можно также использовать незаэкранированный вариант <code>!{html}</code>, так что следующее</p>
-<p>превратится в литеральный тег script:</p>
-<div class="highlight"><pre><span></span>- var html = &quot;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&quot;
-| !{html}
-</pre></div>
-
-
-<p>Вложенные теги, содержащие текст, могут использовать как текстовый блок:</p>
-<div class="highlight"><pre><span></span>label
-  | Username:
-  input(name=&#39;user[name]&#39;)
-</pre></div>
-
-
-<p>так и inline-текст:</p>
-<div class="highlight"><pre><span></span>label Username:
-  input(name=&#39;user[name]&#39;)
-</pre></div>
-
-
-<p>Теги, которые допускают <em>только</em> текст, например, <code>script</code>, <code>style</code>, и <code>textarea</code>,
-не нуждаются в начальном символе <code>|</code>, например:</p>
-<div class="highlight"><pre><span></span>  html
-    head
-      title Example
-      script
-        if (foo) {
-          bar();
-        } else {
-          baz();
-        }
-</pre></div>
-
-
-<p>Также альтернативно мы можем использовать точку (<code>.</code>), чтобы обозначиь текстовый блок:</p>
-<div class="highlight"><pre><span></span>  p.
-    foo asdf
-    asdf
-     asdfasdfaf
-     asdf
-    asd.
-</pre></div>
-
-
-<p>На выходе будет:</p>
-<div class="highlight"><pre><span></span>    &amp;lt;p&amp;gt;foo asdf
-    asdf
-      asdfasdfaf
-      asdf
-    asd
-    .
-    &amp;lt;/p&amp;gt;
-</pre></div>
-
-
-<p>Однако это отличается от точки, перед которой идет пробел. Такая точка воспринимается парсером Jade просто как литерал точки:</p>
-<div class="highlight"><pre><span></span>p .
-</pre></div>
-
-
-<p>на выходе даст:</p>
-<div class="highlight"><pre><span></span>&amp;lt;p&amp;gt;.&amp;lt;/p&amp;gt;
-</pre></div>
-
-
-<p>Следует заметить, что текстовые блоки должны быть дважды заэкранированы. Например, если нужен следующий HTML:</p>
-<div class="highlight"><pre><span></span>&amp;lt;/p&amp;gt;foo\bar&amp;lt;/p&amp;gt;
-</pre></div>
-
-
-<p>, следует использовать:</p>
-<div class="highlight"><pre><span></span>p.
-  foo\\bar
-</pre></div>
-
-
-<h3>Комментарии</h3>
-<p>Однострочные комментарии выглядят порсто как комментарии JavaScript,
-то есть "//", и дожны помещаться на свойе строке:</p>
-<div class="highlight"><pre><span></span>// just some paragraphs
-p foo
-p bar
-</pre></div>
-
-
-<p>на выходе даст:</p>
-<div class="highlight"><pre><span></span>&amp;lt;!-- just some paragraphs --&amp;gt;
-&amp;lt;p&amp;gt;foo&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;bar&amp;lt;/p&amp;gt;
-</pre></div>
-
-
-<p>Jade также поддерживает небуферизируемые комментарии, просто добавьте дефис:</p>
-<div class="highlight"><pre><span></span>//- will not output within markup
-p foo
-p bar
-</pre></div>
-
-
-<p>на выходе имеем:</p>
-<div class="highlight"><pre><span></span>&amp;lt;p&amp;gt;foo&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;bar&amp;lt;/p&amp;gt;
-</pre></div>
-
-
-<h3>Блочные комментарии</h3>
-<p>Блочные комментарии задаются отступами:</p>
-<div class="highlight"><pre><span></span>  body
-    //
-      #content
-        h1 Example
-</pre></div>
-
-
-<p>на выходе:</p>
-<div class="highlight"><pre><span></span>&amp;lt;body&amp;gt;
-  &amp;lt;!--
-  &amp;lt;div id=&quot;content&quot;&amp;gt;
-    &amp;lt;h1&amp;gt;Example&amp;lt;/h1&amp;gt;
-  &amp;lt;/div&amp;gt;
-  --&amp;gt;
-&amp;lt;/body&amp;gt;
-</pre></div>
-
-
-<p>Jade также поддерживает условные комментарии:</p>
-<div class="highlight"><pre><span></span>body
-  //if IE
-    a(href=&#39;http://www.mozilla.com/en-US/firefox/&#39;) Get Firefox
-</pre></div>
-
-
-<p>на выходе:</p>
-<div class="highlight"><pre><span></span><span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="n">body</span><span class="o">&amp;</span><span class="n">gt</span><span class="p">;</span>
-  <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="o">!--</span><span class="p">[</span><span class="k">if</span> <span class="n">IE</span><span class="p">]</span><span class="o">&amp;</span><span class="n">gt</span><span class="p">;</span>
-    <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s">&quot;http://www.mozilla.com/en-US/firefox/&quot;</span><span class="o">&amp;</span><span class="n">gt</span><span class="p">;</span><span class="n">Get</span> <span class="n">Firefox</span><span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="o">/</span><span class="n">a</span><span class="o">&amp;</span><span class="n">gt</span><span class="p">;</span>
-  <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="o">!</span><span class="p">[</span><span class="n">endif</span><span class="p">]</span><span class="o">--&amp;</span><span class="n">gt</span><span class="p">;</span>
-<span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="o">/</span><span class="n">body</span><span class="o">&amp;</span><span class="n">gt</span><span class="p">;</span>
-</pre></div>
-
-
-<h3>Вложенность</h3>
-<p>Jade поддерживает вложенность тегов, выполняемую естественным способом:</p>
-<div class="highlight"><pre><span></span>ul
-  li.first
-    a(href=&#39;#&#39;) foo
-  li
-    a(href=&#39;#&#39;) bar
-  li.last
-    a(href=&#39;#&#39;) baz
-</pre></div>
-
-
-<h3>Раскрытие блока</h3>
-<p>Раскрытие блока позволяет писать компактные однострочные конструкции вложенных тегов,</p>
-<p>следующий пример эквивалентен примеру вложенности выше.</p>
-<div class="highlight"><pre><span></span>  ul
-    li.first: a(href=&#39;#&#39;) foo
-    li: a(href=&#39;#&#39;) bar
-    li.last: a(href=&#39;#&#39;) baz
-</pre></div>
-
-
-<h3>Атрибуты</h3>
-<p>Jade в настоящее время поддерживает разделители атрибутов '(' и ')'.</p>
-<div class="highlight"><pre><span></span>a(href=&#39;/login&#39;, title=&#39;View login page&#39;) Login
-</pre></div>
-
-
-<p>Когда значение <code>undefined</code> или <code>null</code>, атрибут <em>не</em> добавляется,</p>
-<p>и тогда следующий пример не даст в результате 'something="null"':</p>
-<div class="highlight"><pre><span></span>div(something=null)
-</pre></div>
-
-
-<p>Булевы атрибуты также поддерживаются:</p>
-<div class="highlight"><pre><span></span>input(type=&quot;checkbox&quot;, checked)
-</pre></div>
-
-
-<p>Булев атрибут с кодом будет рендериться только если он равен <code>true</code>:</p>
-<div class="highlight"><pre><span></span>input(type=&quot;checkbox&quot;, checked=someValue)
-</pre></div>
-
-
-<p>Атрибуты можно разбивать на несколько строк:</p>
-<div class="highlight"><pre><span></span>input(type=&#39;checkbox&#39;,
-  name=&#39;agreement&#39;,
-  checked)
-</pre></div>
-
-
-<p>При переносе запятую можно опускать:</p>
-<div class="highlight"><pre><span></span>input(type=&#39;checkbox&#39;
-  name=&#39;agreement&#39;
-  checked)
-</pre></div>
-
-
-<p>Можно манипулировать отступами:</p>
-<div class="highlight"><pre><span></span>input(
-  type=&#39;checkbox&#39;
-  name=&#39;agreement&#39;
-  checked)
-</pre></div>
-
-
-<p>Двоеточия учитываются:</p>
-<div class="highlight"><pre><span></span>rss(xmlns:atom=&quot;atom&quot;)
-</pre></div>
-
-
-<p>Например у нас есть переменная <code>user</code> = <code>{ id: 12, name: 'tobi' }</code>
-и нам надо создать тег гиперссылки с <code>href</code>, указывающим на "/user/12".</p>
-<p>Можно конечно использовать обычную JS-конкатенацию:</p>
-<div class="highlight"><pre><span></span>a(href=&#39;/user/&#39; + user.id)= user.name
-</pre></div>
-
-
-<p>, а можно - Jade-овскую интерполяцию, которая была добавлена
-по просьбам <strike>трудящихся</strike> рубистов и CoffeeScrip-щиков:</p>
-<p>a(href='/user/#{user.id}')= user.name</p>
-<p>Атрибут <code>class</code> - особенный, в него можно передавать массив,
-например, <code>bodyClasses = ['user', 'authenticated']</code>:</p>
-<div class="highlight"><pre><span></span>body(class=bodyClasses)
-</pre></div>
-
-
-<h3>Doctypes</h3>
-<p>Чтобы добавить doctype, просто используйте <code>!!!</code>, или <code>doctype</code>, с необязательным параметром:</p>
-<div class="highlight"><pre><span></span>!!!
-</pre></div>
-
-
-<p>Выдаст <em>transitional</em> doctype, однако:</p>
-<div class="highlight"><pre><span></span>!!! 5
-</pre></div>
-
-
-<p>или</p>
-<div class="highlight"><pre><span></span>!!! html
-</pre></div>
-
-
-<p>или</p>
-<div class="highlight"><pre><span></span>doctype html
-</pre></div>
-
-
-<p>doctypes нечувствительны к регистру, так что следующее эквивалентно:</p>
-<div class="highlight"><pre><span></span>doctype Basic
-doctype basic
-</pre></div>
-
-
-<p>Это выдаст <em>html 5</em> doctype.</p>
-<p>Вот doctypes определенные по умолчанию (можно легко дополнить своими):</p>
-<div class="highlight"><pre><span></span><span class="nt">var</span> <span class="nt">doctypes</span> <span class="o">=</span> <span class="nt">exports</span><span class="p">.</span><span class="nc">doctypes</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="err">&#39;5&#39;:</span> <span class="err">&#39;&amp;lt</span><span class="p">;</span><span class="err">!DOCTYPE</span> <span class="err">html&amp;gt</span><span class="p">;</span><span class="err">&#39;,</span>
-    <span class="err">&#39;xml&#39;:</span> <span class="err">&#39;&amp;lt</span><span class="p">;</span><span class="err">?xml</span> <span class="err">version=&quot;1.0&quot;</span> <span class="err">encoding=&quot;utf-8&quot;</span> <span class="err">?&amp;gt</span><span class="p">;</span><span class="err">&#39;,</span>
-    <span class="err">&#39;default&#39;:</span> <span class="err">&#39;&amp;lt</span><span class="p">;</span><span class="err">!DOCTYPE</span> <span class="err">html</span> <span class="err">PUBLIC</span> <span class="err">&quot;-//W3C//DTD</span> <span class="err">XHTML</span> <span class="err">1.0</span> <span class="err">Transitional//EN&quot;</span> <span class="err">&quot;</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">w3</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">TR</span><span class="o">/</span><span class="n">xhtml1</span><span class="o">/</span><span class="n">DTD</span><span class="o">/</span><span class="n">xhtml1-transitional</span><span class="o">.</span><span class="n">dtd</span><span class="s2">&quot;&amp;gt;&#39;,</span>
-<span class="s2">    &#39;transitional&#39;: &#39;&amp;lt;!DOCTYPE html PUBLIC &quot;</span><span class="o">-//</span><span class="n">W3C</span><span class="o">//</span><span class="n">DTD</span> <span class="n">XHTML</span> <span class="mf">1.0</span> <span class="n">Transitional</span><span class="o">//</span><span class="n">EN</span><span class="s2">&quot; &quot;</span><span class="n">http</span><span class="o">://</span><span class="n">www</span><span class="o">.</span><span class="n">w3</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">TR</span><span class="o">/</span><span class="n">xhtml1</span><span class="o">/</span><span class="n">DTD</span><span class="o">/</span><span class="n">xhtml1-transitional</span><span class="o">.</span><span class="n">dtd</span><span class="s2">&quot;&amp;gt;&#39;,</span>
-<span class="s2">    &#39;strict&#39;: &#39;&amp;lt;!DOCTYPE html PUBLIC &quot;</span><span class="o">-//</span><span class="n">W3C</span><span class="o">//</span><span class="n">DTD</span> <span class="n">XHTML</span> <span class="mf">1.0</span> <span class="n">Strict</span><span class="o">//</span><span class="n">EN</span><span class="s2">&quot; &quot;</span><span class="n">http</span><span class="o">://</span><span class="n">www</span><span class="o">.</span><span class="n">w3</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">TR</span><span class="o">/</span><span class="n">xhtml1</span><span class="o">/</span><span class="n">DTD</span><span class="o">/</span><span class="n">xhtml1-strict</span><span class="o">.</span><span class="n">dtd</span><span class="s2">&quot;&amp;gt;&#39;,</span>
-<span class="s2">    &#39;frameset&#39;: &#39;&amp;lt;!DOCTYPE html PUBLIC &quot;</span><span class="o">-//</span><span class="n">W3C</span><span class="o">//</span><span class="n">DTD</span> <span class="n">XHTML</span> <span class="mf">1.0</span> <span class="n">Frameset</span><span class="o">//</span><span class="n">EN</span><span class="s2">&quot; &quot;</span><span class="n">http</span><span class="o">://</span><span class="n">www</span><span class="o">.</span><span class="n">w3</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">TR</span><span class="o">/</span><span class="n">xhtml1</span><span class="o">/</span><span class="n">DTD</span><span class="o">/</span><span class="n">xhtml1-frameset</span><span class="o">.</span><span class="n">dtd</span><span class="s2">&quot;&amp;gt;&#39;,</span>
-<span class="s2">    &#39;1.1&#39;: &#39;&amp;lt;!DOCTYPE html PUBLIC &quot;</span><span class="o">-//</span><span class="n">W3C</span><span class="o">//</span><span class="n">DTD</span> <span class="n">XHTML</span> <span class="mf">1.1</span><span class="o">//</span><span class="n">EN</span><span class="s2">&quot; &quot;</span><span class="n">http</span><span class="o">://</span><span class="n">www</span><span class="o">.</span><span class="n">w3</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">TR</span><span class="o">/</span><span class="n">xhtml11</span><span class="o">/</span><span class="n">DTD</span><span class="o">/</span><span class="n">xhtml11</span><span class="o">.</span><span class="n">dtd</span><span class="s2">&quot;&amp;gt;&#39;,</span>
-<span class="s2">    &#39;basic&#39;: &#39;&amp;lt;!DOCTYPE html PUBLIC &quot;</span><span class="o">-//</span><span class="n">W3C</span><span class="o">//</span><span class="n">DTD</span> <span class="n">XHTML</span> <span class="n">Basic</span> <span class="mf">1.1</span><span class="o">//</span><span class="n">EN</span><span class="s2">&quot; &quot;</span><span class="n">http</span><span class="o">://</span><span class="n">www</span><span class="o">.</span><span class="n">w3</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">TR</span><span class="o">/</span><span class="n">xhtml-basic</span><span class="o">/</span><span class="n">xhtml-basic11</span><span class="o">.</span><span class="n">dtd</span><span class="s2">&quot;&amp;gt;&#39;,</span>
-<span class="s2">    &#39;mobile&#39;: &#39;&amp;lt;!DOCTYPE html PUBLIC &quot;</span><span class="o">-//</span><span class="n">WAPFORUM</span><span class="o">//</span><span class="n">DTD</span> <span class="n">XHTML</span> <span class="n">Mobile</span> <span class="mf">1.2</span><span class="o">//</span><span class="n">EN</span><span class="s2">&quot; &quot;</span><span class="n">http</span><span class="o">://</span><span class="n">www</span><span class="o">.</span><span class="n">openmobilealliance</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">tech</span><span class="o">/</span><span class="n">DTD</span><span class="o">/</span><span class="n">xhtml-mobile12</span><span class="o">.</span><span class="n">dtd</span><span class="err">&quot;</span><span class="o">&amp;</span><span class="n">gt</span><span class="p">;</span><span class="err">&#39;</span>
-<span class="p">}</span><span class="o">;</span>
-</pre></div>
-
-
-<p>Чтобы изменить значения по умолчанию:</p>
-<div class="highlight"><pre><span></span>jade.doctypes.default = &#39;whatever you want&#39;;
-</pre></div>
-
-
-<h2>Фильтры</h2>
-<p>Фильтры пишутся с префиксом <code>:</code>, например: <code>:markdown</code> и
-им передается на обработку последующий блок текста.</p>
-<p>См. <em>возможности</em> вверху документа - там есть список доступных фильтров.</p>
-<div class="highlight"><pre><span></span><span class="n">body</span>
-  <span class="o">:</span><span class="n">markdown</span>
-    <span class="n">Woah</span><span class="o">!</span> <span class="n">jade</span> <span class="n">_and_</span> <span class="n">markdown</span><span class="o">,</span> <span class="n">very</span> <span class="o">**</span><span class="n">cool</span><span class="o">**</span>
-    <span class="n">we</span> <span class="n">can</span> <span class="n">even</span> <span class="n">link</span> <span class="n">to</span> <span class="o">[</span><span class="n">stuff</span><span class="o">](</span><span class="n">http</span><span class="o">://</span><span class="n">google</span><span class="o">.</span><span class="na">com</span><span class="o">)</span>
-</pre></div>
-
-
-<p>Рендерится в:</p>
-<div class="highlight"><pre><span></span><span class="o">&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">body</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span>
-    <span class="o">&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">p</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span><span class="nt">Woah</span><span class="o">!</span> <span class="nt">jade</span> <span class="o">&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">em</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span><span class="nt">and</span><span class="o">&amp;</span><span class="nt">lt</span><span class="o">;/</span><span class="nt">em</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span> <span class="nt">markdown</span><span class="o">,</span> <span class="nt">very</span>
-    <span class="o">&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">strong</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span><span class="nt">cool</span><span class="o">&amp;</span><span class="nt">lt</span><span class="o">;/</span><span class="nt">strong</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span> <span class="nt">we</span> <span class="nt">can</span> <span class="nt">even</span> <span class="nt">link</span> <span class="nt">to</span>
-    <span class="o">&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">a</span> <span class="nt">href</span><span class="o">=</span><span class="s2">&quot;http://google.com&quot;</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span><span class="nt">stuff</span><span class="o">&amp;</span><span class="nt">lt</span><span class="o">;/</span><span class="nt">a</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span>
-    <span class="o">&amp;</span><span class="nt">lt</span><span class="o">;/</span><span class="nt">p</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span>
-<span class="o">&amp;</span><span class="nt">lt</span><span class="o">;/</span><span class="nt">body</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span>
-</pre></div>
-
-
-<p>Фильтры также могут манипулировать AST-деревом.</p>
-<p>Например если надо компилировать условные конструкции прямо в Jade, это можно сделать с помощью фильтра <em>conditionals</em>. Обычно фильтры оперируют текстом, однако если фильтру передан обыкновенный блок, он может делать что угодно с тегами, вложенными в него:</p>
-<div class="highlight"><pre><span></span>body
-  conditionals:
-    if role == &#39;admin&#39;
-      p You are amazing
-    else
-      p Not so amazing
-</pre></div>
-
-
-<p>Обратите внимание, что мы не ставим префикс "-" для наших блоков кода.</p>
-<p>Примеры того, как можно манипулировать деревом можно найти в <a href="https://github.com/visionmedia/jade/blob/master/examples/conditionals.js">./examples/conditionals.js</a> и  <a href="https://github.com/visionmedia/jade/blob/master/examples/model.js">./examples/model.js</a>. Есть много вариантов использования этой штуки. Например сжатие/склейка ресурсов на лету (чтобы снизить HTTP-трафик), поддержка сообщений об ошибках, и многое другое.</p>
-<h2>Код</h2>
-<p>Jade поддердивает три типа исполняемого кода. Первый -
-это когда ставится префикс <code>-</code>, буфферизации не происходит:</p>
-<div class="highlight"><pre><span></span>- var foo = &#39;bar&#39;;
-</pre></div>
-
-
-<p>Этим можно пользоваться для условных конструкций, циклов:</p>
-<div class="highlight"><pre><span></span>- for (var key in obj)
-  p= obj[key]
-</pre></div>
-
-
-<p>В соответствии с техникой буфферизации Jade, следующее также валидно:</p>
-<div class="highlight"><pre><span></span>- if (foo)
-  ul
-    li yay
-    li foo
-    li worked
-- else
-  p oh no! didnt work
-</pre></div>
-
-
-<p>Да, можно итерировать явно:</p>
-<div class="highlight"><pre><span></span>- if (items.length)
-  ul
-    - items.forEach(function(item){
-      li= item
-    - })
-</pre></div>
-
-
-<p>Все что угодно!</p>
-<p>Теперь получим заэкранированный буферизированный код,
-который буферизирует возвращаемое значение, с префиксом <code>=</code>:</p>
-<div class="highlight"><pre><span></span>- var foo = &#39;bar&#39;
-= foo
-h1= foo
-</pre></div>
-
-
-<p>Что дает на выходе <code>bar&lt;h1&gt;bar&lt;/h1&gt;</code>. Код, буферизированый с помощью <code>=</code>, по умолчанию экранируется.</p>
-<p>Из соображений безопасности.</p>
-<p>Однако можно использовать неэкранируемый вариант:</p>
-<div class="highlight"><pre><span></span>p!= aVarContainingMoreHTML
-</pre></div>
-
-
-<p>Чтобы подсластить синтаксис,
-сделано одно исключение - <code>-each</code>. Вот в такой форме:</p>
-<div class="highlight"><pre><span></span>- each VAL[, KEY] in OBJ
-</pre></div>
-
-
-<p>Пример итерации по массиву:</p>
-<div class="highlight"><pre><span></span>- var items = [&quot;one&quot;, &quot;two&quot;, &quot;three&quot;]
-- each item in items
-  li= item
-</pre></div>
-
-
-<p>на выходе имеем:</p>
-<div class="highlight"><pre><span></span>&amp;lt;li&amp;gt;one&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;two&amp;lt;/li&amp;gt;
-&amp;lt;li&amp;gt;three&amp;lt;/li&amp;gt;
-</pre></div>
-
-
-<p>Итерация по массиву с индексами:</p>
-<div class="highlight"><pre><span></span><span class="err">-</span> var <span class="ss">items =</span> <span class="p">[</span><span class="s2">&quot;one&quot;</span><span class="p">,</span> <span class="s2">&quot;two&quot;</span><span class="p">,</span> <span class="s2">&quot;three&quot;</span><span class="p">]</span>
-<span class="err">-</span> each item<span class="p">,</span> i <span class="k">in</span> items
-  li <span class="c1">#{item}: #{i}</span>
-</pre></div>
-
-
-<p>на выходе получаем:</p>
-<div class="highlight"><pre><span></span><span class="o">&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">li</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span><span class="nt">one</span><span class="o">:</span> <span class="nt">0</span><span class="o">&amp;</span><span class="nt">lt</span><span class="o">;/</span><span class="nt">li</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span>
-<span class="o">&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">li</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span><span class="nt">two</span><span class="o">:</span> <span class="nt">1</span><span class="o">&amp;</span><span class="nt">lt</span><span class="o">;/</span><span class="nt">li</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span>
-<span class="o">&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">li</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span><span class="nt">three</span><span class="o">:</span> <span class="nt">2</span><span class="o">&amp;</span><span class="nt">lt</span><span class="o">;/</span><span class="nt">li</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span>
-</pre></div>
-
-
-<p>Итерация по ключам и значениям объекта:</p>
-<div class="highlight"><pre><span></span><span class="err">-</span> var <span class="ss">obj =</span> <span class="p">{</span> foo<span class="p">:</span> <span class="err">&#39;</span>bar&#39; <span class="p">}</span>
-<span class="err">-</span> each val<span class="p">,</span> key <span class="k">in</span> obj
-  li <span class="c1">#{key}: #{val}</span>
-</pre></div>
-
-
-<p>дает на выходе <code>&lt;li&gt;foo: bar&lt;/li&gt;</code></p>
-<p>Также можно вкладывать структуры одна в другую!</p>
-<div class="highlight"><pre><span></span>- each user in users
-  - each role in user.roles
-    li= role
-</pre></div>
-
-
-<p>Когда свойство <code>undefined</code>, Jade выдаст пустую строку. Например:</p>
-<div class="highlight"><pre><span></span>textarea= user.signature
-</pre></div>
-
-
-<p>хотя <code>undefined</code> должно рисоваться в HTML как "undefined",</p>
-<p>последние версии Jade просто выдадут:</p>
-<div class="highlight"><pre><span></span>&amp;lt;textarea&amp;gt;&amp;lt;/textarea&amp;gt;
-</pre></div>
-
-
-<h2>Инклюды</h2>
-<p>Инклюды позволяют статически подключать куски кода шаблонов Jade,</p>
-<p>находящиеся в отдельных файлах. Классический пример</p>
-<p>это подключение хедера и футера. Например есть следующая</p>
-<p>структура папок:</p>
-<div class="highlight"><pre><span></span> ./layout.jade
- ./includes/
-   ./head.jade
-   ./tail.jade
-</pre></div>
-
-
-<p>и следующий <em>layout.jade</em>:</p>
-<div class="highlight"><pre><span></span>  html
-    include includes/head  
-    body
-      h1 My Site
-      p Welcome to my super amazing site.
-      include includes/foot
-</pre></div>
-
-
-<p>оба инклюда <em>includes/head</em> и <em>includes/foot</em>
-читаются относительно опции <code>filename</code>, переданной в <em>layout.jade</em>,
-где должен быть абсолютный путь к файлу данного шаблона, однако Express
-и метод <code>renderFile()</code> делают это за вас. Include потом парсит
-эти файлы, и вставляет получившееся AST, чтобы отрендерить то, что ожидается:</p>
-<div class="highlight"><pre><span></span>&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;title&amp;gt;My Site&amp;lt;/title&amp;gt;
-    &amp;lt;script src=&quot;/javascripts/jquery.js&quot;&amp;gt;
-    &amp;lt;/script&amp;gt;&amp;lt;script src=&quot;/javascripts/app.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
-  &amp;lt;/head&amp;gt;
-
-  &amp;lt;body&amp;gt;
-    &amp;lt;h1&amp;gt;My Site&amp;lt;/h1&amp;gt;
-    &amp;lt;p&amp;gt;Welcome to my super lame site.&amp;lt;/p&amp;gt;
-    &amp;lt;div id=&quot;footer&quot;&amp;gt;
-      &amp;lt;p&amp;gt;Copyright&amp;gt;(c) foobar&amp;lt;/p&amp;gt;
-    &amp;lt;/div&amp;gt;
-  &amp;lt;/body&amp;gt;
-
-&amp;lt;/html&amp;gt;
-</pre></div>
-
-
-<h2>Примеси (Mixin)</h2>
-<p>Примеси конвертируются в обычные JavaScript функции внутри
-скомпилированного Jade-ом шаблона. Примеси могут
-принимать аргументы, впрочем необязательные:</p>
-<div class="highlight"><pre><span></span>  mixin list
-    ul
-      li foo
-      li bar
-      li baz
-</pre></div>
-
-
-<p>Вызов примеси без аргументов выглядит похоже, но под ней не пишется блок:</p>
-<div class="highlight"><pre><span></span>  h2 Groceries
-  mixin list
-</pre></div>
-
-
-<p>Примесь может принимать несколько аргументов, аргументы -
-это обычные javascript выражения, так например следующее:</p>
-<div class="highlight"><pre><span></span>  mixin pets(pets)
-    ul.pets
-      - each pet in pets
-        li= pet
-
-  mixin profile(user)
-    .user
-      h2= user.name
-      mixin pets(user.pets)
-</pre></div>
-
-
-<p>Породит нечто подобное следующему html:</p>
-<div class="highlight"><pre><span></span>&amp;lt;div class=&quot;user&quot;&amp;gt;
-  &amp;lt;h2&amp;gt;tj&amp;lt;/h2&amp;gt;
-  &amp;lt;ul class=&quot;pets&quot;&amp;gt;
-    &amp;lt;li&amp;gt;tobi&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;loki&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;jane&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;manny&amp;lt;/li&amp;gt;
-  &amp;lt;/ul&amp;gt;
-&amp;lt;/div&amp;gt;
-</pre></div>
-
-
-<h2>Генерируемый код</h2>
-<p>Например у нас есть такой Jade:</p>
-<div class="highlight"><pre><span></span>- var title = &#39;yay&#39;
-h1.title #{title}
-p Just an example
-</pre></div>
-
-
-<p>Когда опция <code>compileDebug</code> не указана явно как false, Jade
-скомпилирует функцию, оснащенную отладочной информацией вида <code>__.lineno = n;</code>,
-которая в случае исключения передается в <code>rethrow()</code>, который конструирует
-читабельное сообщение об ошибке.</p>
-<div class="highlight"><pre><span></span><span class="kd">function</span> <span class="nx">anonymous</span><span class="p">(</span><span class="nx">locals</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">__</span> <span class="o">=</span> <span class="p">{</span> <span class="nx">lineno</span>: <span class="kt">1</span><span class="p">,</span> <span class="nx">input</span><span class="o">:</span> <span class="s2">&quot;- var title = &#39;yay&#39;\nh1.title #{title}\np Just an example&quot;</span><span class="p">,</span> <span class="nx">filename</span><span class="o">:</span> <span class="s2">&quot;testing/test.js&quot;</span> <span class="p">};</span>
-  <span class="kd">var</span> <span class="nx">rethrow</span> <span class="o">=</span> <span class="nx">jade</span><span class="p">.</span><span class="nx">rethrow</span><span class="p">;</span>
-  <span class="k">try</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">attrs</span> <span class="o">=</span> <span class="nx">jade</span><span class="p">.</span><span class="nx">attrs</span><span class="p">,</span> <span class="nx">escape</span> <span class="o">=</span> <span class="nx">jade</span><span class="p">.</span><span class="nx">escape</span><span class="p">;</span>
-    <span class="kd">var</span> <span class="nx">buf</span> <span class="o">=</span> <span class="p">[];</span>
-    <span class="kd">with</span> <span class="p">(</span><span class="nx">locals</span> <span class="o">||</span> <span class="p">{})</span> <span class="p">{</span>
-      <span class="kd">var</span> <span class="nx">interp</span><span class="p">;</span>
-      <span class="nx">__</span><span class="p">.</span><span class="nx">lineno</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-       <span class="kd">var</span> <span class="nx">title</span> <span class="o">=</span> <span class="s1">&#39;yay&#39;</span>
-      <span class="nx">__</span><span class="p">.</span><span class="nx">lineno</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
-      <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;lt;h1&#39;</span><span class="p">);</span>
-      <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">attrs</span><span class="p">({</span> <span class="s2">&quot;class&quot;</span><span class="o">:</span> <span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span> <span class="p">}));</span>
-      <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;gt;&#39;</span><span class="p">);</span>
-      <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&#39;</span> <span class="o">+</span> <span class="nx">escape</span><span class="p">((</span><span class="nx">interp</span> <span class="o">=</span> <span class="nx">title</span><span class="p">)</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">?</span> <span class="s1">&#39;&#39;</span> <span class="o">:</span> <span class="nx">interp</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
-      <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;lt;/h1&amp;gt;&#39;</span><span class="p">);</span>
-      <span class="nx">__</span><span class="p">.</span><span class="nx">lineno</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
-      <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;lt;p&amp;gt;&#39;</span><span class="p">);</span>
-      <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;Just an example&#39;</span><span class="p">);</span>
-      <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;lt;/p&amp;gt;&#39;</span><span class="p">);</span>
-    <span class="p">}</span>
-    <span class="k">return</span> <span class="nx">buf</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">);</span>
-  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">rethrow</span><span class="p">(</span><span class="nx">err</span><span class="p">,</span> <span class="nx">__</span><span class="p">.</span><span class="nx">input</span><span class="p">,</span> <span class="nx">__</span><span class="p">.</span><span class="nx">filename</span><span class="p">,</span> <span class="nx">__</span><span class="p">.</span><span class="nx">lineno</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>__
-Когда опция <code>compileDebug</code> <em>явно</em> задана как <code>false</code>, эта отладочная информация
-опускается, что очень важно для легковесных клиентских шаблонов.</p>
-<p>Комбинируя Jade-овские опции и <code>./runtime.js</code> из github-репозитария, можно
-сделать скомпилированной функции <code>toString()</code> и избежать подключения целого компилятора Jade в клиенте,
-что повысит производительность, и уменьшит
-трафик JS-скриптов.</p>
-<div class="highlight"><pre><span></span><span class="kd">function</span> <span class="nx">anonymous</span><span class="p">(</span><span class="nx">locals</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">attrs</span> <span class="o">=</span> <span class="nx">jade</span><span class="p">.</span><span class="nx">attrs</span><span class="p">,</span> <span class="nx">escape</span> <span class="o">=</span> <span class="nx">jade</span><span class="p">.</span><span class="nx">escape</span><span class="p">;</span>
-  <span class="kd">var</span> <span class="nx">buf</span> <span class="o">=</span> <span class="p">[];</span>
-  <span class="kd">with</span> <span class="p">(</span><span class="nx">locals</span> <span class="o">||</span> <span class="p">{})</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">interp</span><span class="p">;</span>
-    <span class="kd">var</span> <span class="nx">title</span> <span class="o">=</span> <span class="s1">&#39;yay&#39;</span>
-    <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;lt;h1&#39;</span><span class="p">);</span>
-    <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">attrs</span><span class="p">({</span> <span class="s2">&quot;class&quot;</span><span class="o">:</span> <span class="p">(</span><span class="s1">&#39;title&#39;</span><span class="p">)</span> <span class="p">}));</span>
-    <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;gt;&#39;</span><span class="p">);</span>
-    <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&#39;</span> <span class="o">+</span> <span class="nx">escape</span><span class="p">((</span><span class="nx">interp</span> <span class="o">=</span> <span class="nx">title</span><span class="p">)</span> <span class="o">==</span> <span class="kc">null</span> <span class="o">?</span> <span class="s1">&#39;&#39;</span> <span class="o">:</span> <span class="nx">interp</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
-    <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;lt;/h1&amp;gt;&#39;</span><span class="p">);</span>
-    <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;lt;p&amp;gt;&#39;</span><span class="p">);</span>
-    <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;Just an example&#39;</span><span class="p">);</span>
-    <span class="nx">buf</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="s1">&#39;&amp;lt;/p&amp;gt;&#39;</span><span class="p">);</span>
-  <span class="p">}</span>
-  <span class="k">return</span> <span class="nx">buf</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<h2>bin/jade</h2>
-<p>Выдать html в  <em>stdout</em>:</p>
-<div class="highlight"><pre><span></span>jade &amp;lt; my.jade &amp;gt; my.html
-</pre></div>
-
-
-<p>Сгенерировать <em>examples/*.html</em>:</p>
-<div class="highlight"><pre><span></span>jade examples/*.jade
-</pre></div>
-
-
-<p>*
-Передача опций:</p>
-<div class="highlight"><pre><span></span>jade examples/layout.jade --options &#39;{ locals: { title: &quot;foo&quot; }}&#39;
-</pre></div>
-
-
-<p>Хелп:</p>
-<div class="highlight"><pre><span></span><span class="err">Использование</span><span class="o">:</span> <span class="n">jade</span> <span class="o">[</span><span class="n">options</span><span class="o">]</span>
-            <span class="o">[</span><span class="n">path</span> <span class="o">...]</span>
-            <span class="o">&amp;</span><span class="n">lt</span><span class="o">;</span> <span class="k">in</span><span class="o">.</span><span class="na">jade</span> <span class="o">&amp;</span><span class="n">gt</span><span class="o">;</span> <span class="n">out</span><span class="o">.</span><span class="na">jade</span>  
-<span class="err">Опции</span><span class="o">:</span>
-  <span class="o">-</span><span class="n">o</span><span class="o">,</span> <span class="o">--</span><span class="n">options</span> <span class="o">&amp;</span><span class="n">lt</span><span class="o">;</span><span class="n">str</span><span class="o">&amp;</span><span class="n">gt</span><span class="o">;</span>  <span class="n">JavaScript</span> <span class="n">object</span> <span class="err">с</span> <span class="err">опциями</span>
-  <span class="o">-</span><span class="n">h</span><span class="o">,</span> <span class="o">--</span><span class="n">help</span>           <span class="err">Показать</span> <span class="err">хелп</span>
-  <span class="o">-</span><span class="n">w</span><span class="o">,</span> <span class="o">--</span><span class="n">watch</span>          <span class="err">Следить</span> <span class="err">за</span> <span class="err">изменениями</span> <span class="err">файлов</span> <span class="err">и</span> <span class="err">перекомпилировать</span>
-  <span class="o">-</span><span class="n">v</span><span class="o">,</span> <span class="o">--</span><span class="n">version</span>        <span class="err">Показать</span> <span class="err">версию</span> <span class="n">Jade</span>
-  <span class="o">--</span><span class="n">out</span> <span class="o">&amp;</span><span class="n">lt</span><span class="o">;</span><span class="n">dir</span><span class="o">&amp;</span><span class="n">gt</span><span class="o">;</span>          <span class="err">Выдать</span> <span class="err">откомпилированный</span> <span class="n">HTML</span> <span class="err">в</span> <span class="o">&amp;</span><span class="n">lt</span><span class="o">;</span><span class="n">dir</span><span class="o">&amp;</span><span class="n">gt</span><span class="o">;</span>
-</pre></div>
-
-
-<h2>Лицензия</h2>
-<p>(The MIT License)</p>
-<p>Copyright (c) 2009-2010 TJ Holowaychuk &lt;tj@vision-media.ca&gt;</p>
-<p>Данная лицензия разрешает лицам, получившим копию данного программного обеспечения и сопутствующей документации (в дальнейшем именуемыми «Программное Обеспечение»), безвозмездно использовать Программное Обеспечение без ограничений, включая неограниченное право на использование, копирование, изменение, добавление, публикацию, распространение, сублицензирование и/или продажу копий Программного Обеспечения, также как и лицам, которым предоставляется данное Программное Обеспечение, при соблюдении следующих условий:</p>
-<p>Указанное выше уведомление об авторском праве и данные условия должны быть включены во все копии или значимые части данного Программного Обеспечения.</p>
-<p>ДАННОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ», БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНО ВЫРАЖЕННЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ ГАРАНТИЯМИ ТОВАРНОЙ ПРИГОДНОСТИ, СООТВЕТСТВИЯ ПО ЕГО КОНКРЕТНОМУ НАЗНАЧЕНИЮ И ОТСУТСТВИЯ НАРУШЕНИЙ ПРАВ. НИ В КАКОМ СЛУЧАЕ АВТОРЫ ИЛИ ПРАВООБЛАДАТЕЛИ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ПО ИСКАМ О ВОЗМЕЩЕНИИ УЩЕРБА, УБЫТКОВ ИЛИ ДРУГИХ ТРЕБОВАНИЙ ПО ДЕЙСТВУЮЩИМ КОНТРАКТАМ, ДЕЛИКТАМ ИЛИ ИНОМУ, ВОЗНИКШИМ ИЗ, ИМЕЮЩИМ ПРИЧИНОЙ ИЛИ СВЯЗАННЫМ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ ИЛИ ИСПОЛЬЗОВАНИЕМ ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ИЛИ ИНЫМИ ДЕЙСТВИЯМИ С ПРОГРАММНЫМ ОБЕСПЕЧЕНИЕМ.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+</footer><!-- /.post-info -->                <p>Jade - это высокопроизводительный шаблонизатор, источником вдохновенья для создания которого послужил Haml</p>
+                <a class="readmore" href="/Jade.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -908,8 +113,31 @@ p Just an example
 <p>In <a href="/category/python.html">Python</a>.</p>
 <p>tags: <a href="/tag/dev.html">dev</a> <a href="/tag/py.html">py</a> </p>
 </footer><!-- /.post-info -->                <p>Содержание статьи будет здесь, все напишу о питоне</p>
-<p>('Python.org', 'http://python.org/')</p>
+<p>('Python.org', 'https://python.org/')</p>
                 <a class="readmore" href="/python.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/python2.html" rel="bookmark"
+                           title="Permalink to Python2!">Python2!</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-02-27T23:20:00+03:00">
+                Published: Ср 27 Февраль 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/py.html">py</a>
+        </address>
+<p>In <a href="/category/python.html">Python</a>.</p>
+<p>tags: <a href="/tag/dev.html">dev</a> <a href="/tag/py.html">py</a> </p>
+</footer><!-- /.post-info -->                <p>Содержание статьи будет здесь, все напишу о питоне</p>
+<p>('Python.org', 'https://python.org/')</p>
+                <a class="readmore" href="/python2.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
 
@@ -931,7 +159,7 @@ p Just an example
 <p>In <a href="/category/sap.html">SAP</a>.</p>
 <p>tags: <a href="/tag/dev.html">dev</a> <a href="/tag/sap.html">sap</a> </p>
 </footer><!-- /.post-info -->                <p>Содержание статьи будет здесь, все напишу о SAP</p>
-<p>('SAP','http://SAP.com/')</p>
+<p>('SAP','https://SAP.com/')</p>
                 <a class="readmore" href="/sap.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
@@ -959,10 +187,10 @@ p Just an example
 
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a> и <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                <p>Шаблон <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, спасибо!</p>
         </footer><!-- /#contentinfo -->
 
 </body>
